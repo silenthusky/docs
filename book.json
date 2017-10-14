@@ -1,0 +1,20 @@
+{
+    "root": "./",
+    "title": "沉默的哈士奇",
+    "head_title": "_文档_沉默的哈士奇",
+    "head_description": "文档",
+    "head_keywords": "沉默的哈士奇,文档",
+    "logo": "./images/logo.png",
+    "gitbook": ">= 3.0.0",
+
+    "language": "zh-hans",
+
+    "plugins": [
+        "-sharing",
+        "-fontsettings",
+        "-lunr",
+        "-search",
+        "search-pro",
+        "theme-official"
+    ]
+}
