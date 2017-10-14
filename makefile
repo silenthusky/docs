@@ -4,9 +4,9 @@ build:
 	@gitbook serve
 
 publish:
-	@pushd _book
+	@cd ./_book
 	@git add .
-	@git commit "Auto commit"
+	@git commit -m "Auto commit"
 	@git push origin master
-	@popd
+	
 
